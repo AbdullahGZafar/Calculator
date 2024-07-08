@@ -1,26 +1,44 @@
-function add(Array){
+function add() {
+  const result = Array.from(arguments).reduce(function (total, sum) {
+    return total + sum;
+  }, 0);
+  return result;
 }
 
-function subtract(Array){
-
+function subtract() {
+ const result = Array.from(arguments).reduce(function (total, sum) {
+    return total - sum;
+  });
+  return result;
 }
 
-function multiply(Array){
-
+function multiply() {
+  const result = Array.from(arguments).reduce(function (total, product) {
+    return total * product;
+  }, 1);
+return result;
 }
 
-function divide(Array){
-
+function divide() {
+const result = Array.from(arguments).reduce(function (total, product) {
+    return total / product;
+  });
+  return result;
 }
 
-function factorial(Num){
-
+function factorial(num) {
+    let factArray = [];
+  for (let i = num; i > 1; i--){
+    factArray.push(i);
+  }
+  const result = factArray.reduce(function(total, product){
+    return total*product;
+  }, 1);
+  return result;
 }
 
-function power(Num){
-
+function power(num, pow) {
+      return num**pow;
 }
 
-function operate(Num1, Num2){
-
-}
+function operate(Num1, Num2) {}
