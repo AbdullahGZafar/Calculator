@@ -1,7 +1,3 @@
-* {
-  /* border: 1px solid red; */
-}
-
 .header {
   padding: 60px;
   text-align: center;
@@ -52,18 +48,10 @@ body {
   text-align: center;
 }
 
-.number-buttons-container {
-  /* float: left; */
-  
-}
-
-
 .operator-buttons-container {
-  /* float: right;  */
   margin-right: 15px;
 
 }
-
 
 .number-buttons, .operator-buttons {
   border-radius: 10px;
@@ -77,20 +65,11 @@ body {
 }
 
 .number-buttons {
-  /* background-color: #d6a184;
-  border-radius: 10px;
-  height: 100%;
-  aspect-ratio: 1 / 1; */
   background-color: white;
  
 }
 
 
 .operator-buttons {
-  /* background-color: #99654a;
-  border-radius: 10px;
-  height: 100%;
-  aspect-ratio: 1 / 1;
-   */
    background-color: orange;
 }
