@@ -1,3 +1,11 @@
+const allNumberButtons = document.querySelector(".number-buttons-container");
+const allOperatorButtons = document.querySelector(".operator-buttons-container");
+
+//all number buttons can be accessed with number[x]; 0 is at index 0, 1 at 1, etc.
+const number = Array.from(document.querySelectorAll(".number-buttons"));
+const operator = Array.from(document.querySelectorAll(".operator-buttons"));
+
+
 function add() {
   const result = Array.from(arguments).reduce(function (total, sum) {
     return total + sum;
