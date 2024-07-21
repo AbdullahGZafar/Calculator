@@ -1,7 +1,3 @@
-const allNumberButtons = document.querySelector(".number-buttons-container");
-const allOperatorButtons = document.querySelector(".operator-buttons-container");
-
-//all number buttons can be accessed with number[x]; 0 is at index 0, 1 at 1, etc.
 const number = Array.from(document.querySelectorAll(".number-buttons"));
 
 const plusButton = querySelector("#+");
